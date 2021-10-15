@@ -171,7 +171,7 @@ function useDragAutoLeave(timeout: number = 100) {
       clearTimeout(timer.current)
 
       dragOver.current = true
-      timer.current = setTimeout(() => {
+      timer.current = window.setTimeout(() => {
         dragOver.current = false
         onDragLeave?.()
       }, timeout)

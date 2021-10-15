@@ -5,7 +5,7 @@
         "lib": [
             "ES2019",
             "DOM",
-            "DOM.Iterable"
+            "DOM.Iterable",
         ],
         // Required: Use module="ESNext" so that TS won't compile/disallow any ESM syntax.
         "module": "ESNext",
@@ -22,9 +22,9 @@
         // cf. https://stackoverflow.com/a/55540896
         "skipLibCheck": true,
         // Useful type checks.
-        "strictNullChecks": true
+        "strictNullChecks": true,
     },
     "include": [
         "./src/**/*"
-    ]
+    ],
 }

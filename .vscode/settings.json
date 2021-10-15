@@ -4,5 +4,5 @@
 
   // Prettier をデフォルトフォーマッターにする
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": ["immer", "Kanban"]
+  "cSpell.words": ["baretest", "immer", "Kanban"]
 }
